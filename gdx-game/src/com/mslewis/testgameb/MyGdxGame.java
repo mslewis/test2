@@ -23,7 +23,7 @@ public class MyGdxGame implements ApplicationListener
 	    Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
 		batch.draw(texture, Gdx.graphics.getWidth() / 4, 0, 
-				   Gdx.graphics.getWidth() / 2, Gdx.graphics.getWidth() / 2);
+				   Gdx.graphics.getWidth() / 2, Gdx.graphics.getWidth() );
 		batch.end();
 	}
 
