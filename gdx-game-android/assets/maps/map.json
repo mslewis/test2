@@ -1,0 +1,186 @@
+{
+    "tiles": [
+        {
+            "id": 1,
+            "image": "Stone.jpg",
+            "posx": 100,
+            "posy": 100,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 2
+                },
+                {
+                    "cost": 1,
+                    "id": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "Stone.jpg",
+            "posx": 250,
+            "posy": 100,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 1
+                },{
+                    "cost": 1,
+                    "id": 3
+                },{
+                    "cost": 1,
+                    "id": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "Stone.jpg",
+            "posx": 400,
+            "posy": 100,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 2
+                },
+                {
+                    "cost": 1,
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "Stone.jpg",
+            "posx": 100,
+            "posy": 250,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 1
+                },
+                {
+                    "cost":1,
+                    "id":5
+                },
+                {
+                    "cost":1,
+                    "id": 7
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "Stone.jpg",
+            "posx": 250,
+            "posy": 250,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 2
+                },{
+                    "cost": 1,
+                    "id": 4
+                },
+                {
+                    "cost": 1,
+                    "id": 6
+                },{
+                    "cost": 1,
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "image": "Stone.jpg",
+            "posx": 400,
+            "posy": 250,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 5
+                },
+                {
+                    "cost": 1,
+                    "id": 3
+                },
+                {
+                    "cost": 1,
+                    "id": 9
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "image": "Stone.jpg",
+            "posx": 100,
+            "posy": 400,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 4
+                },
+                {
+                    "cost": 1,
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "image": "Stone.jpg",
+            "posx": 250,
+            "posy": 400,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 7
+                },
+                {
+                    "cost": 1,
+                    "id": 5
+                },
+                {
+                    "cost": 1,
+                    "id": 9
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "image": "Stone.jpg",
+            "posx": 400,
+            "posy": 400,
+            "width": 100,
+            "height": 100,
+            "neighbors": [
+                {
+                    "cost": 1,
+                    "id": 8
+                },
+                {
+                    "cost": 1,
+                    "id": 6
+                }
+            ]
+        }
+    ]
+}
