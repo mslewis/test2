@@ -26,6 +26,7 @@ public class Tile extends Actor {
     float width=GameConstants.tileEdge;
     float height = GameConstants.tileEdge;
     public ArrayList<TileConnect> neighbors;
+    State selectedState = State.normal;
 
     public Texture getTexture() {
         if(texture==null)

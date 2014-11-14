@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.ui.TextArea;
 
 /**
  * Created by mslewis on 9/7/14.
@@ -15,6 +16,7 @@ public class Character extends Actor {
     Vector2 position;
     Tile target;
     Texture texture;
+    boolean selected = false;
 
     public Character(Tile start)
     {
